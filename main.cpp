@@ -163,6 +163,7 @@ using namespace std;
 //     }
 //
 // }
+//Problem 8
 // int main() {
 //     int RollingDie[]={1,2,3,4,5,6};
 //     int count1=0;
@@ -190,4 +191,48 @@ using namespace std;
 //         cout<<"the number 5 occurs: "<<count5<<" times"<<endl;
 //         cout<<"the number 6 occurs: "<<count6<<" times"<<endl;
 //
+// }
+//Problem 9
+// void reverseArray(int arr[], int start, int end){
+//     int temp=arr[start];
+//     arr[start]=arr[end];
+//     arr[end]=temp;
+//     start++;
+//     end--;
+// }
+// int main()
+// {
+//   int len;
+//    cout <<"entnter lenght: "<<endl;
+//    cin >> len;
+//    int arr[len];
+//    for(int i=0; i<len;i++){
+//        cin>>arr[i];
+//    }
+//   reverseArray(arr,0,len-1);
+//   for(int i=0; i<len;i++){
+//       cout<<arr[i]<<" ";
+//   }
+
+//     return 0;
+// }
+//Problem 10
+// int main()
+// {
+//   int len;
+//    cout <<"entnter lenght: "<<endl;
+//    cin >> len;
+//    int arr[len];
+//    for(int i=0; i<len;i++){
+//        cin>>arr[i];
+//    }
+//    bool isSorted = true;
+//    for(int i=1;i<len;i++){
+//        if(arr[i]<arr[i-1]){
+//            isSorted = false;
+//            break;
+//        }
+//    }
+//    cout<<(isSorted? "YES":"NO");
+//     return 0;
 // }
