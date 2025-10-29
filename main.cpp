@@ -163,3 +163,31 @@ using namespace std;
 //     }
 //
 // }
+// int main() {
+//     int RollingDie[]={1,2,3,4,5,6};
+//     int count1=0;
+//     int count2=0;
+//     int count3=0;
+//     int count4=0;
+//     int count5=0;
+//     int count6=0;
+//     srand(time(0));
+//     for(int i=0;i<1000;i++) {
+//         int randNum = RollingDie[rand() % 6];
+//         if(randNum == 1) count1++;
+//         if(randNum == 2) count2++;
+//         if(randNum == 3) count3++;
+//         if(randNum == 4) count4++;
+//         if(randNum == 5) count5++;
+//         if(randNum == 6) count6++;
+//     }
+//
+//
+//         cout<<"The number 1 occurs: "<<count1<<" times"<<endl;
+//         cout<<"The number 2 occurs: "<<count2<<" times"<<endl;
+//         cout<<"the number 3 occurs: "<<count3<<" times"<<endl;
+//         cout<<"the number 4 occurs: "<<count4<<" times"<<endl;
+//         cout<<"the number 5 occurs: "<<count5<<" times"<<endl;
+//         cout<<"the number 6 occurs: "<<count6<<" times"<<endl;
+//
+// }
